@@ -1,0 +1,13 @@
+{% if code == 404 %}
+    <p>{{ code }} - {{ message }}</p>
+    <p>{{ app_message.message }}</p>
+{% elseif code == 500 %}
+    <p>{{ code }} - {{ message }}</p>
+    <p>{{ app_message.message }}</p>
+{% elseif code == 403 %}
+    <p>{{ code }} - {{ message }}</p>
+    <p>{{ app_message.message }}</p>
+{% elseif code == 401 %}
+    <p>{{ code }} - {{ message }}</p>
+    <p>{{ app_message.message }}</p>
+{% endif %}
